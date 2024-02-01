@@ -111,4 +111,129 @@ y.remove("apple")
 thistuple = tuple(y)
 
 
-#
+thistuple = ("apple", "banana", "cherry")
+del thistuple
+print(thistuple) #this will raise an error because the tuple no longer exists
+
+
+#ExampleGet your own Python Server
+#Packing a tuple:
+
+fruits = ("apple", "banana", "cherry")
+
+
+#Example
+#Unpacking a tuple:
+
+fruits = ("apple", "banana", "cherry")
+
+(green, yellow, red) = fruits
+
+print(green)
+print(yellow)
+print(red)
+
+
+#Example
+#Assign the rest of the values as a list called "red":
+
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+
+(green, yellow, *red) = fruits
+
+print(green)
+print(yellow)
+print(red)
+
+
+#Example
+#Add a list of values the "tropic" variable:
+
+fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
+
+(green, *tropic, red) = fruits
+
+print(green)
+print(tropic)
+print(red)
+
+
+#ExampleGet your own Python Server
+#Iterate through the items and print the values:
+
+thistuple = ("apple", "banana", "cherry")
+for x in thistuple:
+  print(x)
+
+#Example
+#Print all items by referring to their index number:
+
+thistuple = ("apple", "banana", "cherry")
+for i in range(len(thistuple)):
+  print(thistuple[i])
+
+
+#Example
+#Print all items, using a while loop to go through all the index numbers:
+
+thistuple = ("apple", "banana", "cherry")
+i = 0
+while i < len(thistuple):
+  print(thistuple[i])
+  i = i + 1 
+
+#ExampleGet your own Python Server
+#Join two tuples:
+
+tuple1 = ("a", "b" , "c")
+tuple2 = (1, 2, 3)
+
+tuple3 = tuple1 + tuple2
+print(tuple3)
+
+#Exercise:
+T#he following code example would print the data type of x, what data type would that be?
+
+
+x = 5
+print(type(x))
+
+int
+#Exercise:
+#Use the correct syntax to print the first item in the fruits tuple.
+
+
+fruits = ("apple", "banana", "cherry")
+print(fruits[0])
+
+#Exercise:
+#Use the correct syntax to print the first item in the fruits tuple.
+
+
+fruits = ("apple", "banana", "cherry")
+print(fruits[0])
+
+
+#Exercise:
+#Use the correct syntax to print the number of items in the fruits tuple.
+
+
+fruits = ("apple", "banana", "cherry")
+print(len(fruits))
+
+#Exercise:
+#Use the correct syntax to print the number of items in the fruits tuple.
+
+
+fruits = ("apple", "banana", "cherry")
+print(len(fruits))
+
+
+#Exercise:
+#Use a range of indexes to print the third, fourth, and fifth item in the tuple.
+
+
+fruits = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(fruits[2:5])
+
+
