@@ -42,3 +42,13 @@ print(type(mytuple))
 
 thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
 print(thistuple)
+#Print the second item in the tuple
+thistuple = ("яблоко", "банан", "вишня")
+print(thistuple[1])
+#Print the last item of the tuple:
+thistuple = ("яблоко", "банан", "вишня")
+print(thistuple[-1])
+#Возвращает третий, четвертый и пятый элемент:
+thistuple = ("яблоко", "банан", "вишня", "апельсин", "киви", "дыня", "манго")
+print(это число [2:5])
+
