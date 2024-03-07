@@ -1,5 +1,6 @@
 import re
-data = "SomeDataWithSpaces"
-x = ""
-x = re.findall("[A-Z][a-z]*"  , data )
-print(*x)
+
+text = input()
+word = r'(?<!^)(?=[A-Z])'
+result = re.sub(word, ' ', text)
+print(result)
